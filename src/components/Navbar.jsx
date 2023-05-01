@@ -23,11 +23,6 @@ function Navbar() {
                 </div>
 
                 <div>
-                    <button className='hover:font-normal font-medium ' onClick={() => navigate("/edit-product")}>
-                        Edit Product
-                    </button>
-                </div>
-                <div>
                     <button className='hover:font-normal font-medium ' onClick={() => navigate("/dashboard")}>
                         Dashboard
                     </button>
