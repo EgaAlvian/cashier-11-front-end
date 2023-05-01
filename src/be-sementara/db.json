@@ -1,0 +1,33 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Kaos Hitam Polos",
+      "price": 25000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/fd2a2f32f4199a5dd9039b7330d464cf84ff1d90_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "kaos"
+    },
+    {
+      "productName": "Kapal api",
+      "price": "5000",
+      "description": "Kopi jahat",
+      "category": "Makanan",
+      "id": 2
+    },
+    {
+      "productName": "Kapal api",
+      "price": "5000",
+      "description": "Kopi jahat",
+      "category": "Makanan",
+      "id": 3
+    },
+    {
+      "productName": "asdasdsadsad",
+      "price": "311",
+      "description": "Butuh duit",
+      "category": "minuman",
+      "id": 4
+    }
+  ]
+}
