@@ -17,7 +17,7 @@ function Home() {
             </div>
             <div className='flex-auto p-5 font-medium'>
 
-                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxYFbWSJ8gKxJEe-OJfO3fzSLQuZKNU2eVw&usqp=CAU' className='ml-60' width="300px">
+                <img src='https://asset.kompas.com/crops/6Hj-Addb3gAB2o3k7BcwpAX0KB8=/0x1:1000x668/750x500/data/photo/2018/01/31/3910093161.jpg' className='ml-80 mt-10' width="400px">
                 </img>
             </div>
 

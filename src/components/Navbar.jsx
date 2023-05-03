@@ -29,7 +29,7 @@ function Navbar() {
                 </div>
 
                 <div>
-                    <input className='font-normal bg-clip-border p-1' placeholder='Search'></input>
+                    <input className='font-normal bg-clip-border p-1 border-1' type='text' placeholder='Search...'></input>
                 </div>
             </div>
             <div className='flex flex-auto flex-row justify-evenly'>
