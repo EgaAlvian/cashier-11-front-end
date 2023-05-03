@@ -7,11 +7,10 @@ export const productSlice = createSlice({
         productList: [],
         product: {
             id: 0,
-            productName: "",
+            name: "",
             price: 0,
             description: "",
-            productImage: "",
-            category: ""
+            categoryId: ""
         }
     },
     reducers: {
@@ -29,17 +28,25 @@ export default productSlice.reducer
 
 export function fetchProducts() {
     return async (dispatch) => {
-        let response = await Axios.get("http://localhost:3001/products")
+        let response = await Axios.get("http://localhost:4000/products")
         // console.log(response)
-        dispatch(setProductList(response.data))
+        dispatch(setProductList(response.data.products))
     }
 }
 
 export function addProduct(productInfo) {
     return async (dispatch) => {
-        let response = await Axios.post("http://localhost:3001/products", productInfo)
-        dispatch(setProduct(response.data))
-        console.log(response.data)
+        let response = await Axios.post("http://localhost:4000/products", productInfo)
+        dispatch(setProduct(response.data.product))
+        // console.log(response.data)
+
+    }
+}
+export function deleteProduct(id) {
+    return async (dispatch) => {
+        let response = await Axios.delete(`http://localhost:3001/products/${id}`)
+        // dispatch(setProduct(response))
+        console.log(response)
 
     }
 }
